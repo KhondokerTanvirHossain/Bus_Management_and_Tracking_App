@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescriptionActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:id="@+id/tvd1"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:text="key     "
+                android:textSize="25dp"
+                android:textColor="@color/input_login"/>
+            <TextView
+                android:id="@+id/tvd11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=": value"
+                android:textSize="25dp"
+                android:textColor="@color/input_login"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:id="@+id/tvd2"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:text="key     "
+                android:textSize="25dp"
+                android:textColor="@color/input_login"/>
+            <TextView
+                android:id="@+id/tvd22"
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:text=": value"
+                android:textSize="25dp"
+                android:textColor="@color/input_login"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:id="@+id/tvd3"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:text="key     "
+                android:textSize="25dp"
+                android:textColor="@color/input_login"/>
+            <TextView
+                android:id="@+id/tvd33"
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:text=": value"
+                android:textSize="25dp"
+                android:textColor="@color/input_login"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:id="@+id/tvd4"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:text="key     "
+                android:textSize="25dp"
+                android:textColor="@color/input_login"/>
+            <TextView
+                android:id="@+id/tvd44"
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:text=": value"
+                android:textSize="25dp"
+                android:textColor="@color/input_login"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:id="@+id/tvd5"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:text="key     "
+                android:textSize="25dp"
+                android:textColor="@color/input_login"/>
+            <TextView
+                android:id="@+id/tvd55"
+                android:layout_width="250sp"
+                android:layout_height="match_parent"
+                android:text=": value"
+                android:textSize="25dp"
+                android:textColor="@color/input_login"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:id="@+id/tvdBus"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:text="key     "
+                android:textSize="25dp"
+                android:textColor="@color/input_login"/>
+            <TextView
+                android:id="@+id/tvdBusNumber"
+                android:layout_width="250sp"
+                android:layout_height="match_parent"
+                android:text=": value"
+                android:textSize="25dp"
+                android:textColor="@color/input_login"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:id="@+id/tvd6"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="key     "
+                android:textSize="25dp"
+                android:textColor="@color/colorAccent"/>
+            <TextView
+                android:id="@+id/tvd66"
+                android:layout_width="250sp"
+                android:layout_height="match_parent"
+                android:text=": value"
+                android:textSize="25dp"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLocation"
+                android:text="Bus Location"
+                android:textColor ="@color/colorAccent"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
