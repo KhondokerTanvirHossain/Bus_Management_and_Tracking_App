@@ -1,5 +1,5 @@
 # Bus_Management_and_Tracking_App
-This is an android application that is use University Buses as metaphore to manage all the bus and user can track the bus nearby and book seat if the user is a valid customer of the bus. I have done this project on IIUC Buses because they have 150 buses.This application run successfully.
+This is an android application to manage and track public transportations. User can track bus's current location and book a seat if the user is a valid customer of the bus. This project is done based on IIUC Buses. They have mare than 150 bus.This application run successfully.
 
 ## Features
 * Profile for every students
